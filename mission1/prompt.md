@@ -1,0 +1,147 @@
+  prompt1-------------
+  
+  iam facing problem to navigate to contact by clicking on contact link that is in navbar this is my code <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mission1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+   <!-- ...............navbar............... -->
+
+   <div class="navbar-container">
+
+      <h1 >Prodesk</h1>
+     <div class="navbar">
+        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link " href="#">About</a>
+        <a class="nav-link " href="#">Services</a>
+        <a class="nav-link " href="#footer">Contact</a>
+
+     </div>
+     <button class="btn" id="darkToggle">Change Theme</button>
+
+
+   </div>
+
+
+
+
+
+   <!-- ...............herosection............... -->
+
+
+   <div class="hero-container">
+
+      <div class="left">
+
+         <h1>
+            We Build Digital Experiences
+         </h1>
+         <p>
+            We are a team of designers and developers  who <br>create  digital experiences 
+         </p>
+         <button>Get Started</button>
+      </div>
+      <div class="right">
+         <img src="./images/1.png" alt="">
+      </div>
+
+
+
+   </div>
+
+
+
+
+   <!-- ..............services................ -->
+
+   <div class="service-container">
+      
+      <h1>Our Services !</h1>
+   
+   <div class="services">
+
+      
+      
+
+      <div class="card">
+         <img src="./images/s1.png" alt="">
+         <h2>SEO Services</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eaque.</p>
+         <button>Learn More →</button>
+
+      </div>
+      <div class="card">
+           <img src="./images/s2.png" alt="">
+         <h2>Web Dev</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eaque.</p>
+         <button>Learn More →</button>
+
+      </div>
+      <div class="card">
+           <img src="./images/s3.png" alt="">
+         <h2>Marketing</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eaque.</p>
+         <button>Learn More →</button>
+
+      </div>
+   </div>
+
+      </div>
+
+
+
+
+
+   <!-- ...............footer............... -->
+
+   <div class="footer" name="footer">
+      <div class="main-content">
+         <div class="logo-icons">
+            <h1>Prodesk</h1>
+               <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                 
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+
+         </div>
+         <div class="contact">
+            <h2>Contact Us</h2>
+           
+            <p><i class="fas fa-envelope"></i> info@prodesk.com</p>
+             <p><i class="fas fa-phone"></i> +123 456 7890</p>
+
+         </div>
+         <div class="subscribe">
+            <h2>Subscribe</h2>
+            <div class="input"><input type="email" placeholder="Email"><i class="fas fa-envelope"></i> </div>
+            
+
+         </div>
+
+         
+        
+      </div>
+      <hr>
+      <div class="copy-right">
+          <p>© 2024 Prodesk. All rights reserved.</p>
+      </div>
+   </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
